@@ -1,0 +1,14 @@
+// General Imports
+@import 'variables';
+@import 'utilities';
+@import 'mixins';
+@import 'typography';
+@import 'defaults';
+@import 'animations';
+@import 'transitions';
+
+@import 'breakpoint-sass';
+
+main {
+    min-height: 60rem;
+}

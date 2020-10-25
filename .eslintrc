@@ -1,0 +1,29 @@
+{
+    "extends": [
+        "airbnb-typescript/base"
+	],
+	"parserOptions": {
+		"ecmaVersion": 8,
+        "project": "./tsconfig.json"
+	},
+	"env": {
+		"es6": true,
+		"browser": true,
+		"node": true,
+		"jest": true
+	},
+	"rules": {
+		"max-len": 0,
+		"linebreak-style": [0],
+		"no-trailing-spaces": 0,
+		"indent": "off",
+        "vue/html-indent": "off",
+        "no-param-reassign": "off",
+        "consistent-return": "off",
+        "dot-notation": "off",
+        "no-plusplus": "off",
+        "no-restricted-globals": "off",
+        "no-confusing-arrow": "off",
+        "no-console": "off"
+	}
+}
